@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sunnyside School</title>
+  <style>
+    
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #1E90FF;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    header h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    section {
+      background: white;
+      margin: 15px;
+      padding: 15px;
+      border-radius: 6px;
+    }
+
+    h2 {
+      font-size: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    
+    #mission h2 { color: #32CD32; }
+    #upcoming-events h2 { color: #FFA500; }
+    #contact h2 { color: #20B2AA; }
+
+    
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+
+  
+    .contact-info a {
+      color: #1E90FF;
+      text-decoration: none;
+      position: relative;
+    }
+
+    .contact-info a:hover::after {
+      content: "Click to copy email";
+      position: absolute;
+      left: 0;
+      bottom: -18px;
+      font-size: 12px;
+      background: black;
+      color: white;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+
+    
+    .outdoor {
+      background: #e6f7ff;
+      border: 1px solid #b3e0f2;
+      margin: 5px 0;
+      padding: 5px;
+    }
+
+    
+    .contact-box {
+      background: #f8f8f8;
+      border-left: 4px solid #1E90FF;
+      padding: 8px;
+    }
+
+    footer {
+      text-align: center;
+      background: #1E90FF;
+      color: white;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <h1>Sunnyside School</h1>
+    <p>Learning Today, Leading Tomorrow</p>
+  </header>
+
+  
+  <section id="mission">
+    <h2>Mission Statement</h2>
+    <p> As I begin my journey in Senior High School under the TVL ICT strand, I am excited to pursue my passion for technology and develop practical skills that will prepare me for the future. I have always been fascinated by computers, software, and how technology shapes the world around us, which is why I chose the ICT track to deepen my knowledge and hands-on experience in this field. </p>
+  </section>
+
+  
+  <section id="upcoming-events">
+    <h2>Upcoming Events</h2>
+    <ul>
+      <li><span class="highlight">Science Fair</span> - June 10</li>
+      <li class="outdoor" data-event-type="outdoor">Sports Day - June 20</li>
+      <li class="outdoor" data-event-type="outdoor">Art Exhibition - July 5</li>
+    </ul>
+  </section>
+
+  
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-box">
+      <p class="contact-info">
+        Phone: +63 912-345-6789 <br>
+        Email: <a href="mailto:info@sunnysideschool.edu">info@sunnysideschool.edu</a>
+      </p>
+    </div>
+  
+  </section>
+
+
+  <footer>
+    &copy; 2025 Sunnyside School | All Rights Reserved
+  </footer>
+
+</body>
+</html>
